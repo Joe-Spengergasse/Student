@@ -1,9 +1,11 @@
+/*nicht von mir*/
+
 public class Student   
 {
     private String name;
     private int alter;
     private boolean matura;
-
+    
     public Student()
     {
         setName("Thomas");
