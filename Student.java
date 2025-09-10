@@ -4,14 +4,14 @@ public class Student
     private int alter;
     private boolean matura;
     private String habmichlieb;
-    
+
     public Student(String neuName, int neuAlter, boolean neuMatura)
     {
         setName(neuName);
         setAlter(neuAlter);
         setMatura(neuMatura);
     }
-    
+
     public Student()
     {
         setName("UNKN");
@@ -34,7 +34,7 @@ public class Student
     {
         this.matura = matura;
     }
-    
+
     public void sethabmichlieb(String habmichlieb)
     {
         this.habmichlieb = habmichlieb;
@@ -54,7 +54,7 @@ public class Student
     {
         return matura;
     }
-    
+
     public String sethabmichlieb()
     {
         return habmichlieb;
