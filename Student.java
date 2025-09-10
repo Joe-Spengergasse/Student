@@ -1,5 +1,3 @@
-/*nicht von mir*/
-
 public class Student   
 {
     private String name;
