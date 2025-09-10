@@ -4,18 +4,18 @@ public class Student
     private int alter;
     private boolean matura;
     
+    public Student(String neuName, int neuAlter, boolean neuMatura)
+    {
+        setName(neuName);
+        setAlter(neuAlter);
+        setMatura(neuMatura);
+    }
+    
     public Student()
     {
         setName("Thomas");
         setAlter(40);
         setMatura(true);
-    }
-
-    public Student(String name, int alter, boolean matura)
-    {
-        setName(name);
-        setAlter(alter);
-        setMatura(matura);
     }
 
     public void setName(String name)
