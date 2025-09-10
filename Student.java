@@ -35,7 +35,7 @@ public class Student
         this.matura = matura;
     }
     
-    public void sethabmichlieb(String abmichlieb)
+    public void sethabmichlieb(String habmichlieb)
     {
         this.habmichlieb = habmichlieb;
     }
@@ -53,6 +53,11 @@ public class Student
     public boolean getMatura()
     {
         return matura;
+    }
+    
+    public String sethabmichlieb()
+    {
+        return habmichlieb;
     }
 
     public void printStudent()
