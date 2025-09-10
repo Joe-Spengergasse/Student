@@ -3,6 +3,7 @@ public class Student
     private String name;
     private int alter;
     private boolean matura;
+    private String habmichlieb;
     
     public Student(String neuName, int neuAlter, boolean neuMatura)
     {
@@ -13,9 +14,10 @@ public class Student
     
     public Student()
     {
-        setName(name);
-        setAlter(alter);
-        setMatura(matura);
+        setName("UNKN");
+        setAlter(14);
+        setMatura(false);
+        sethabmichlieb("dhdhd");
     }
 
     public void setName(String name)
@@ -31,6 +33,11 @@ public class Student
     public void setMatura(boolean matura)
     {
         this.matura = matura;
+    }
+    
+    public void sethabmichlieb(String abmichlieb)
+    {
+        this.habmichlieb = habmichlieb;
     }
 
     public String getName()
