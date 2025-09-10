@@ -13,9 +13,9 @@ public class Student
     
     public Student()
     {
-        setName("Thomas");
-        setAlter(40);
-        setMatura(true);
+        setName(name);
+        setAlter(alter);
+        setMatura(matura);
     }
 
     public void setName(String name)
